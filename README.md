@@ -95,7 +95,7 @@ http://localhost:4567/hello
 
 se vera el siguiente front retornado por el servidor:
 
-# imagen 3
+![](images/3.png)
 
 
 
