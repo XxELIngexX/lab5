@@ -74,10 +74,11 @@ public class SparkWebServer {
         });
 
         get("/palindromo", (req,res) -> {
-            String palabra = req.queryParams("palabra").toLowerCase().replaceAll("[^a-z]", "");
+            String palabra = req.queryParams("palabra").toLowerCase();
+            String word = palabra.replaceAll("[^a-z]", "");
             String resp = "";
-            if (palabra.equals(new StringBuilder(palabra).reverse().toString())) {
-                resp = "La palabra "+palabra+" es un palíndromo";
+            if (word.equals(new StringBuilder(word).reverse().toString())) {
+                resp = "La palabra '"+palabra+"' es un palíndromo";
             } else {
                 resp = "La palabra '"+palabra+"' no es un palíndromo";
             }
