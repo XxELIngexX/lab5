@@ -90,9 +90,11 @@ java -cp "target/classes;target/dependency/*" org.example.SparkWebServer
 * GET /hello:
 
 acceda al servicio por medio de la siguiente URL:
+
 ´
 http://localhost:4567/hello
 ´
+
 se vera el siguiente front retornado por el servidor:
 
 ![](images/3.png)
@@ -100,9 +102,11 @@ se vera el siguiente front retornado por el servidor:
 * GET /calcular/sin:
   
 acceda al servicio por medio de la siguiente URL:
+
 ´
 http://localhost:4567/calcular/sin?angle=45
 ´
+
 se vera el siguiente front retornado por el servidor:
 
 ![](images/consult2.png)
@@ -110,9 +114,11 @@ se vera el siguiente front retornado por el servidor:
 * GET /calcular/cos:
 
 acceda al servicio por medio de la siguiente URL:
+
 ´
 http://localhost:4567/calcular/cos?angle=45
 ´
+
 se vera el siguiente front retornado por el servidor:
 
 ![](images/consult3.png)
@@ -120,17 +126,21 @@ se vera el siguiente front retornado por el servidor:
 - GET /palindromo:
 
 acceda al servicio por medio de la siguiente URL:
+
 ´
 http://localhost:4567/palindromo?palabra=anita lava la tina
 ´
+
 se vera el siguiente front retornado por el servidor:
 
 ![](images/consult4.png)
 
 pero si cambiamos la palabra:
+
 ´
 http://localhost:4567/palindromo?palabra=cesar
 ´
+
 se vera el siguiente front retornado por el servidor:
 ![](images/consult4_1.png)
 
@@ -138,9 +148,11 @@ se vera el siguiente front retornado por el servidor:
 * GET /calcular/magnitud:
 
 acceda al servicio por medio de la siguiente URL:
+
 ´
 http://localhost:4567/calcular/magnitud?x=3&y=4
 ´
+
 se vera el siguiente front retornado por el servidor:
 
 ![](images/consult5.png)
