@@ -58,6 +58,7 @@ liego escriba este comando para limpiar el proyecto Maven y compilarlo, si lo ha
 ```bash
 mvn clean install
 ```
+![](images/1.png)
 
 listo, ya quedo el tema del codigo, ahora veamos como crear el contenedor.
 1. abra docker para que pueda crear un contenedor sin problema
@@ -67,7 +68,7 @@ docker build --tag dockersparkprimer .
 ```
 En resumen, este comando construye una imagen de Docker a partir de un Dockerfile y otros archivos necesarios para la construcción (todo esto ya se encuentra en el proyecto que clono), y luego le asigna el nombre dockersparkprimer a la imagen resultante.
 
-![](images/1.png)
+![](images/2.png)
 
 es importante que en la consola ejecute el comando
 ```bash
