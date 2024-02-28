@@ -67,7 +67,7 @@ docker build --tag dockersparkprimer .
 ```
 En resumen, este comando construye una imagen de Docker a partir de un Dockerfile y otros archivos necesarios para la construcción (todo esto ya se encuentra en el proyecto que clono), y luego le asigna el nombre dockersparkprimer a la imagen resultante.
 
-# imagen1
+![](images/1.png)
 
 es importante que en la consola ejecute el comando
 ```bash
