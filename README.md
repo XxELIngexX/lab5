@@ -50,7 +50,7 @@ Este diseño de clases es una representación básica de la funcionalidad de la 
 escriba la siguiente linea en la consola para clonar el repositorio donde se encuentra el codigo del taller
 
 ```bash
-git clone https://https://github.com/XxELIngexX/lab5.git
+git clone https://github.com/XxELIngexX/lab5.git
 ```
 
 liego escriba este comando para limpiar el proyecto Maven y compilarlo, si lo hace desde consola cdm es importante que este ubicado en el directorio lab5, o puede ejecutarlo desde el terminal en el IDLE
